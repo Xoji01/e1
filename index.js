@@ -104,7 +104,7 @@ let picesoskidka = 0
     })
     console.log(totalSale)
     arr_sale = arr.map((item) => {
-    return item = {names: item.name, price : discount * item.price /100}})
+    return item = {names: item.name, price : item.price - discount * item.price /100}})  
     console.log (arr_sale)
     
      let average = (arr.reduce((dolar, averagePrice) => dolar + averagePrice.price, 0)/ arr.length ) 
